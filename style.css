@@ -1,0 +1,259 @@
+/* header section of the page */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(122, 46, 46);
+}
+
+.inner_header{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child{
+    padding-right: 0%;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* Top section of the page > header > content > button > image */
+
+
+.top_section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1f2937;
+}
+
+.top_left_header{
+    width: 500px;
+    gap: 20px;
+}
+
+.top_left_header h3{
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.top_left_header h3 span{
+    font-weight: bolder;
+}
+
+.top_left_content{
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.sign_up {
+    padding: 5px 20px;
+    margin-top: 2px;
+    outline: none;
+    border-radius: 7px;
+    border-color: #d1b32e;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    background-color: #d1b32e;
+}
+
+.top_image img {
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+/* Second section of the page */
+
+
+.second_section {
+    padding: 4rem 0;
+    width: 100%;
+    background-color: rgb(122, 46, 46);
+
+  }
+   
+  .second_header h3 {
+    color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    margin-bottom: 10px; 
+  }
+
+  .second_header h3 span{
+    font-weight: bold;
+    color: white;
+    padding: 1px;
+  }
+  
+  /*second section boxes + text*/
+
+  .second_infoboxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .second_infobox li{
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat';
+  }
+
+.infobox{
+    width: 170px;
+    height: 170px;
+    border-radius: 7px;
+}
+
+.second_infobox {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 170px;
+    text-align: center;
+  }
+
+  #box1{
+    background: #d1b32e;
+  }
+
+  #box2{
+   background: #a78f24; 
+  }
+
+  #box3{
+    background: #706018;
+  }
+
+  #box4{
+    background: #3d340d;
+  }
+
+  /*third section*/
+
+.third_section{
+    background: #1f2937;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third_section_content{
+    width: 70%;
+    padding: 60px;
+    display: block;
+    gap: 2rem;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat';
+}
+
+.third_section_content h4{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+  /*fourth section*/
+
+.fourth_section{
+    background: rgb(122, 46, 46);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 7px;
+    background-color: #1f2937;
+    width: 60%;
+}
+
+.cta_left {
+    width: 80%;
+    color: white;
+}
+
+.sign_up_cta {
+  padding: 5px 20px;
+  margin-top: 2px;
+  outline: none;
+  border-radius: 7px;
+  border-color: #d1b32e;
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  background-color: #d1b32e;
+}
